@@ -30,7 +30,7 @@
   "readme": "readme.md",
   "license": "MPL-2.0",
   "scripts": {
-    "start": "node server/game_server.js"
+    "start": "node server/game_server.js",
     "test": "ava ./tests/payloads.js ./tests/subpayloads.js",
     "stylelint": "stylelint ./static/*.css"
   },
